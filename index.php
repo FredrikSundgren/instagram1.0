@@ -23,14 +23,15 @@
   <body>
     <nav class="navbar">
       <div class="nav-wrapper" class="dropdown">
-        <img src="img/instagram-logga.png" class="insta-img" alt="" />
+        <a href="index.php"></a>
         <input type="text" class="search" placeholder="Sök" />
         <div class="navigering-items">
+
           <div class="ikon">
             <i class="fas fa-home"></i>
           </div>
           <div class="ikon">
-            <i class="far fa-plus-square"></i>
+            <a class="utan" href="post.php"><i class="far fa-plus-square"></i></a>
           </div>
           <div class="ikon">
             <i class="far fa-paper-plane"></i>
@@ -41,9 +42,7 @@
           <div class="ikon">
             <i class="far fa-heart"></i>
           </div>
-          <!-- <div class="ikon" class="dropdown-content">
-            <i class="fas fa-user-circle"></i>
-          </div> -->
+          
           
           <div class="dropdown">
             <div class="dropbtn"><i class="fas fa-user-circle"></i></div>

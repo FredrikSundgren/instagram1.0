@@ -413,3 +413,30 @@ body {
 .storlek {
   font-size: 14px;
 }
+
+.utan {
+  text-decoration: none;
+}
+
+/*POST*/
+
+.posta-bild {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: center;
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.text-post {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.btn-post {
+  background-color: #0095f6;
+  margin-top: 20px;
+  cursor: pointer;
+}
